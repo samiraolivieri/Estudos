@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flamengo - Paixão Nacional</title>
+    <style>
+        /* Reset e estilos gerais */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+        
+        body {
+            background-color: #f5f5f5;
+            color: #333;
+            line-height: 1.6;
+        }
+        
+        .container {
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 15px;
+        }
+        
+        /* Cabeçalho */
+        header {
+            background-color: #C52613;
+            color: white;
+            padding: 20px 0;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        
+        .header-content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+        
+        .logo {
+            width: 100px;
+            height: auto;
+            margin-bottom: 15px;
+        }
+        
+        h1 {
+            font-size: 2.2rem;
+            margin-bottom: 10px;
+        }
+        
+        /* Navegação */
+        nav {
+            background-color: #1E1E1E;
+            padding: 10px 0;
+        }
+        
+        .nav-links {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            flex-wrap: wrap;
+        }
+        
+        .nav-links li {
+            margin: 0 15px;
+        }
+        
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 5px 0;
+            transition: color 0.3s;
+        }
+        
+        .nav-links a:hover {
+            color: #C52613;
+        }
+        
+        /* Conteúdo principal */
+        .main-content {
+            padding: 30px 0;
+        }
+        
+        .hero {
+            background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://via.placeholder.com/1200x400');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            text-align: center;
+            padding: 100px 20px;
+            margin-bottom: 30px;
+            border-radius: 5px;
+        }
+        
+        .hero h2 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+        
+        .hero p {
+            font-size: 1.2rem;
+            max-width: 800px;
+            margin: 0 auto 30px;
+        }
+        
+        .btn {
+            display: inline-block;
+            background-color: #C52613;
+            color: white;
+            padding: 10px 25px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+        
+        .btn:hover {
+            background-color: #A02010;
+        }
+        
+        /* Seções */
+        .section-title {
+            text-align: center;
+            margin-bottom: 30px;
+            color: #C52613;
+            font-size: 2rem;
+        }
+        
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin-bottom: 40px;
+        }
+        
+        .card {
+            background-color: white;
+            border-radius: 5px;
+            overflow: hidden;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+            transition: transform 0.3s;
+        }
+        
+        .card:hover {
+            transform: translateY(-5px);
+        }
+        
+        .card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        
+        .card-content {
+            padding: 20px;
+        }
+        
+        .card h3 {
+            color: #C52613;
+            margin-bottom: 10px;
+        }
+        
+        /* Rodapé */
+        footer {
+            background-color: #1E1E1E;
+            color: white;
+            text-align: center;
+            padding: 30px 0;
+            margin-top: 30px;
+        }
+        
+        .social-links {
+            margin: 20px 0;
+        }
+        
+        .social-links a {
+            color: white;
+            margin: 0 10px;
+            font-size: 1.5rem;
+            transition: color 0.3s;
+        }
+        
+        .social-links a:hover {
+            color: #C52613;
+        }
+        
+        /* Responsividade */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 1.8rem;
+            }
+            
+            .hero h2 {
+                font-size: 2rem;
+            }
+            
+            .nav-links {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            .nav-links li {
+                margin: 5px 0;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            .hero {
+                padding: 60px 20px;
+            }
+            
+            .hero h2 {
+                font-size: 1.5rem;
+            }
+            
+            .hero p {
+                font-size: 1rem;
+            }
+            
+            .section-title {
+                font-size: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container header-content">
+            <img src="escudo.png" alt="Flamengo Logo" class="logo">
+            <h1>Clube de Regatas do Flamengo</h1>
+            <p>Uma nação, uma paixão</p>
+        </div>
+    </header>
+    
+    <nav>
+        <div class="container">
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Notícias</a></li>
+                <li><a href="#">Elenco</a></li>
+                <li><a href="#">Resultados</a></li>
+                <li><a href="#">História</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <main class="main-content">
+        <div class="container">
+            <section class="hero">
+                <h2>O Mais Querido do Brasil</h2>
+                <p>Com uma torcida apaixonada e uma história repleta de glórias, o Flamengo é mais que um clube, é uma nação!</p>
+                <a href="#" class="btn">Saiba Mais</a>
+            </section>
+            
+            <section>
+                <h2 class="section-title">Últimas Notícias</h2>
+                <div class="grid">
+                    <div class="card">
+                        <img src="https://via.placeholder.com/400x200" alt="Notícia 1">
+                        <div class="card-content">
+                            <h3>Flamengo vence clássico</h3>
+                            <p>Em jogo emocionante, rubro-negro supera rival e segue na liderança do campeonato.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="card">
+                        <img src="https://via.placeholder.com/400x200" alt="Notícia 2">
+                        <div class="card-content">
+                            <h3>Novo reforço anunciado</h3>
+                            <p>Clube anuncia a contratação de jogador promissor para a próxima temporada.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="card">
+                        <img src="https://via.placeholder.com/400x200" alt="Notícia 3">
+                        <div class="card-content">
+                            <h3>Preparação para Libertadores</h3>
+                            <p>Elenco inira preparação intensiva para o próximo desafio continental.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <section>
+                <h2 class="section-title">Próximos Jogos</h2>
+                <div class="grid">
+                    <div class="card">
+                        <img src="https://via.placeholder.com/400x200" alt="Jogo 1">
+                        <div class="card-content">
+                            <h3>Flamengo x Vasco</h3>
+                            <p>Campeonato Brasileiro - 15/06/2023</p>
+                            <p>Maracanã - 21:00h</p>
+                        </div>
+                    </div>
+                    
+                    <div class="card">
+                        <img src="https://via.placeholder.com/400x200" alt="Jogo 2">
+                        <div class="card-content">
+                            <h3>Flamengo x Palmeiras</h3>
+                            <p>Libertadores - 22/06/2023</p>
+                            <p>Maracanã - 19:30h</p>
+                        </div>
+                    </div>
+                    
+                    <div class="card">
+                        <img src="https://via.placeholder.com/400x200" alt="Jogo 3">
+                        <div class="card-content">
+                            <h3>Atlético-MG x Flamengo</h3>
+                            <p>Campeonato Brasileiro - 28/06/2023</p>
+                            <p>Mineirão - 16:00h</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+    
+    <footer>
+        <div class="container">
+            <img src="https://upload.wikimedia.org/wikipedia/pt/2/2e/Flamengo_braz_logo.svg" alt="Flamengo Logo" class="logo" style="width: 80px;">
+            <p>© 2023 Clube de Regatas do Flamengo. Todos os direitos reservados.</p>
+            
+            <div class="social-links">
+                <a href="#"><i class="fab fa-facebook">f</i></a>
+                <a href="#"><i class="fab fa-twitter">t</i></a>
+                <a href="#"><i class="fab fa-instagram">i</i></a>
+                <a href="#"><i class="fab fa-youtube">y</i></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
