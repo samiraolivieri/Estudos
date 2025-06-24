@@ -1,0 +1,135 @@
+<html>
+  <head>
+      <title>Comandos Básicos HTML</title>
+    </head>
+
+<body>
+<h1>Questionário</h1>  
+
+<b>Questão 1:</b> Explique qual é a função de um servidor web em um ambiente de hospedagem e cite pelo menos um exemplo. <br /><br />
+
+<b>Resposta:</b> <font color="blue">Entregar arquivos estáticos como HTML, CSS e imagens. Exemplo: Apache. </font>
+<hr /> <br /><br />
+
+<b>Questão 2:</b> Qual a principal característica do NGINX e por que ele é muito utilizado em projetos de alto desempenho? <br /><br />
+
+<b>Resposta:</b> <font color="blue"> Sua principal característica é ser leve e eficiente, por isso, é utilizado em projetos de alto desempenho e proxy reverso.  </font>
+<hr /> <br  /><br />
+
+<b>Questão 3: </b> Diferencie os protocolos HTTP e HTTPS. Por que o HTTPS é recomendado para aplicações modernas? <br /><br />
+
+<b>Resposta:</b> <font color="blue"> HTTP: Protocolo para transferência de páginas web (sem criptografia).<br /><br /> </font>
+
+HTTPS: Versão segura com criptografia SSL/TLS. É recomendado porque protege os usuários, e a integridade de seus dados, além de garantir a autenticidade da comunicação dos servidores. <hr /> <br /><br />
+
+<b>Questão 4: </b> Qual é a função das portas em uma rede de computadores e qual a importância da porta 443? <br /><br />
+
+<b>Resposta:</b> <font color="blue"> As portas são canais de comunicação para serviços e aplicações específicas de um dispositivo. A porta 443 é a padrão para HTTPS, com isso, garante privacidade, segurança e autenticidade. <hr /> <br /><br /> </font>
+
+<b>Questão 5:</b> Defina o conceito de endereço IP e explique sua importância em redes de computadores. <br /><br />
+
+<b>Resposta:</b> <font color="blue"> O endereço IP é o número identificador único de um dispositivo conectado na rede, é essencial para identificação de cada aparelho e assim, permitir o transporte de informações correto e garantir ampla comunicação em escala global. <hr /> <br /><br /> </font>
+
+<b>Questão 6:</b> Explique o que é hospedagem VPS e em quais situações ela é mais indicada. <br /><br />
+
+<b>Resposta:</b> <font color="blue"> Hospedagem VPS funciona como um servidor virtual com mais controle e desempenho, cada máquina virtual isolada possui suas próprias designações.É indicada quando a hospedagem compartilhada não consegue dar conta do crescimento do site, quando existe a necessidade de hospedar muitos sistemas em um mesmo servidor, há urgência de estabilidade e segurança na aplicação. <hr /> <br /><br /> </font>
+
+<b>Questão 7:</b> Descreva as vantagens do servidor web Caddy em relação a outros servidores tradicionais. <br /><br />
+
+<b>Resposta:</b> <font color="blue"> Possui configuração simples, https automático, suporta proxy, http/2 e http/3, é moderno e seguro. <hr /> <br /><br /> </font>
+
+<b>Questão 8:</b>  Qual servidor de aplicação é mais indicado para aplicações desenvolvidas na plataforma .NET (C#)? Explique o motivo. <br /><br />
+
+<b>Resposta:</b> <font color="blue"> Microsoft IIS, ele é otimizado para a plataforma NET(C#), facilita o desempenho pois apresenta integração nativa. <hr /> <br /><br /> </font>
+
+<b>Questão 9:</b> Descreva o funcionamento do modelo Cliente-Servidor no contexto de sistemas web. <br /><br />
+
+<b>Resposta: </b> <font color="blue"> Modelo onde o cliente (navegador ou app) envia requisições a um servidor, que responde com os dados/processamento solicitado.<hr /> <br /><br /> </font>
+
+<b>Questão 10: </b> Explique o que é o Apache Tomcat e para qual tipo de aplicação ele é mais indicado. <br /><br />
+
+<b>Resposta: </b> <font color="blue"> É um servidor de aplicação Java, indicado para aplicações web baseadas em servlets e JSP. <hr /> <br /><br /> </font>
+
+<b>Questão 11: </b> Diferencie, com suas palavras, um servidor web de um servidor de aplicação, destacando suas funções principais. <br /><br />
+
+<b>Resposta:</b> <font color="blue"> O servidor web, entrega algo estático, que não sofre mudanças recorrentes, e apresenta a mesma estrutura para todos os usuários, como uma página da web, arquivos e imagens, já o servidor de aplicação lida com o dinamismo, e lógica, fornece atualizações e executa códigos para isso. <hr /> <br /><br /> </font>
+
+<b>Questão 12:</b> Defina o conceito de domínio na internet e sua relação com os endereços IP. <br /><br />
+
+<b>Resposta:</b> <font color="blue"> Domínio é o nome que representa o IP, que identifica o servidor.<hr /> <br /><br /> </font>
+
+<b>Questão 13:</b> Quais as principais vantagens da hospedagem em nuvem em comparação com a hospedagem local? <br /><br />
+
+<b>Resposta:</b> <font color="blue"> A hospedagem em nuvem garante escalabilidade alta, escalonamento e disponibilidade fácil. <hr /> <br /><br /> </font>
+
+<b>Questão 14:</b> Cite dois exemplos de servidores de aplicação e as linguagens/plataformas que eles suportam. <br /><br />
+
+<b>Resposta:</b> <font color="blue"> Apache Tomcat (Java) e Microsoft IIS (.NET). <hr /> <br  /><br /> </font>
+
+<b>Questão 15:</b> Por que é essencial a utilização de HTTPS em sites e sistemas atualmente? Quais riscos o HTTP apresenta?  <br /><br />
+
+<b>Resposta:</b> <font color="blue"> HTTPS protege dados com criptografia enquanto HTTP é vulnerável a interceptação e ataques. <hr /> <br  /><br /> </font>
+
+<b>Questão 16:</b> Dê um exemplo de situação onde o uso de hospedagem VPS seria mais vantajoso do que uma hospedagem compartilhada. <br /><br />
+
+<b>Resposta:</b> <font color="blue"> Quando o site cresce e precisa de mais recursos e controle do servidor. <hr /> <br  /><br /> </font>
+
+<b>Questão 17:</b>Diferencie os conceitos de IP e porta em uma rede, explicando suas funções. <br /><br />
+
+<b>Resposta:</b> <font color="blue"> IP identifica o dispositivo na rede já a porta identifica o serviço ou aplicação dentro do dispositivo. <hr /> <br  /><br /> </font>
+
+<b>Questão 18:</b>Qual a importância de um servidor web conseguir lidar com conexões via HTTPS? <br /><br />
+
+<b>Resposta:</b> <font color="blue"> Garantir segurança e privacidade dos dados trocados com os usuários. <hr /> <br  /><br />  </font>
+
+<b>Questão 19:</b> Cite dois exemplos de servidores web e explique suas principais características. <br /><br />
+
+<b>Resposta:</b> <font color="blue"> Apache: robusto e configurável. Nginx: leve, rápido e ótimo para alta concorrência.<hr /> <br  /><br /> </font>
+
+<b>Questão 20:</b> Defina o que é uma hospedagem compartilhada e em quais casos ela costuma ser utilizada. <br /><br />
+
+<b>Resposta:</b> <font color="blue"> Vários sites dividem os mesmos recursos de um servidor é utilizada para sites pequenos ou iniciantes <hr /> <br  /><br /> </font>
+
+<b>Questão 21:</b> Explique a função de um servidor de aplicação e a diferença em relação a servidores que apenas servem arquivos estáticos. <br /><br />
+
+<b>Resposta:</b> <font color="blue"> Executa lógica de negócio e gera conteúdo dinâmico; servidores estáticos só entregam arquivos pronto. <hr /> <br  /><br /> </font>
+
+<b>Questão 22:</b> Cite um servidor de aplicação usado para projetos em Python e descreva como ele funciona. <br /><br />
+
+<b>Resposta:</b> <font color="blue"> Gunicorn: servidor WSGI que executa aplicações Python e gerencia múltiplos processos. <hr /> <br  /><br /> </font>
+
+<b>Questão 23:</b> O que é o WildFly (ex-JBoss) e para qual tecnologia ele é indicado? <br /><br />
+
+<b>Resposta:</b> <font color="blue"> Servidor de aplicação Java EE para executar aplicações empresariais Java. <hr /> <br  /><br /> </font>
+
+<b>Questão 24:</b> Qual a função da porta 21 em redes de computadores e para qual serviço ela é utilizada? <br /><br />
+
+<b>Resposta:</b> <font color="blue"> Usada para controle do protocolo FTP, que serve para transferência de arquivos. <hr /> <br  /><br /> </font>
+
+<b>Questão 25:</b> Explique por que o servidor LiteSpeed é compatível com o Apache e quais as vantagens dessa compatibilidade. <br /><br />
+
+<b>Resposta:</b> <font color="blue"> Ele suporta arquivos de configuração Apache (.htaccess), facilitando migrações e mantendo compatibilidade. <hr /> <br  /><br /> </font>
+
+<b>Questão 26:</b> O que é o Microsoft IIS e em quais situações ele costuma ser adotado? <br /><br />
+
+<b>Resposta:</b> <font color="blue"> Servidor web da Microsoft, usado principalmente para aplicações .NET em ambientes Windows. <hr /> <br  /><br />  </font>
+
+<b>Questão 27:</b> Explique para que serve o Node.js e em quais tipos de aplicações ele é mais utilizado. <br /><br />
+
+<b>Resposta:</b> <font color="blue"> Ambiente para executar JavaScript no servidor, usado para aplicações em tempo real e APIs rápidas. <hr /> <br  /><br /> </font>
+
+<b>Questão 28:</b> Descreva a função do servidor GlassFish e para qual linguagem ele é destinado. <br /><br />
+
+<b>Resposta:</b> <font color="blue"> Servidor de aplicação Java EE para executar aplicações Java corporativas.<hr /> <br  /><br /> </font>
+
+<b>Questão 29:</b> O que são Puma e Unicorn e em quais projetos eles são normalmente utilizados?  <br /><br />
+
+<b>Resposta:</b> <font color="blue"> Servidores web para aplicações Ruby on Rails, gerenciam processos e conexões. <hr /> <br  /><br /> </font>
+
+<b>Questão 30:</b> Qual a importância da escolha adequada entre hospedagem local, compartilhada, VPS e nuvem no planejamento de um projeto web? <br /><br />
+
+<b>Resposta:</b> <font color="blue"> Impacta custo, desempenho, segurança e escalabilidade, garantindo que o projeto funcione bem e cresça conforme necessário.   <hr /> <br  /><br /> </font>
+
+
+</body>
+</html>
